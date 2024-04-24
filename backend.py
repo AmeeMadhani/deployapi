@@ -62,6 +62,6 @@ async def form_predict(image: UploadFile = File(...)):
     return {"prediction": label}
 
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("backend:app", host="0.0.0.0", port=7644)
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run("backend:app", host="0.0.0.0", port=7644)
